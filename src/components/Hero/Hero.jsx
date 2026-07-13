@@ -10,9 +10,12 @@ export default function Hero() {
       <div className="hero__inner">
         {/* Left — message */}
         <div className="hero__content">
-          <div className="hero__badge"><span className="hero__badge-dot" /> Visa interview preparation for business owners &amp; investors</div>
-          <h1 className="hero__title">Your business has earned this. <em>Now master the interview.</em></h1>
-          <p className="hero__lead">Phoenix Academy prepares established business owners and investors to present their case with authority at the migration visa interview — through senior-led coaching, rigorous mock interviews, and complete documentation mastery across the USA, Australia, New Zealand, and the EU.</p>
+          <h1 className="hero__title">Business Visa <em>Interview Preparation</em> for Global <em>Entrepreneurs</em></h1>
+          <p className="hero__tagline">Years of hard work brought you here.<br /><em>Don&rsquo;t let one interview hold you back.</em></p>
+          <p className="hero__lead">At Phoenix Interview Academy (PIA), we help established business owners, directors, and investors get ready to pass their business visa interview easily.</p>
+          <p className="hero__lead">As global business expansions require a special type of visa to enter and operate in foreign markets, we ensure you&rsquo;re fully prepared for the interview before stepping into the embassy.</p>
+          <p className="hero__lead">We help you acknowledge the specific requirements and benefits of business immigration visas in your target country</p>
+          <p className="hero__note">Built by the experts behind Phoenix Business Advisory.</p>
           <div className="hero__actions">
             <a href="#contact" className="btn-dark">Request a Consultation <ArrowIcon /></a>
             <a href="#programs" className="btn-outline">View Programs</a>

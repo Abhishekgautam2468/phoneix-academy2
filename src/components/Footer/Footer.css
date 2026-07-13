@@ -7,7 +7,7 @@
   height: 3px;
   background: linear-gradient(90deg, #c4882f 0%, #D4A856 50%, #c4882f 100%);
 }
-.footer__inner { max-width: 1200px; margin: 0 auto; padding: 64px 0 32px; }
+.footer__inner { max-width: none; margin: 0 auto; padding: 64px 0 32px; }
 
 .footer__main {
   display: grid;

@@ -14,21 +14,17 @@ export const avatars = [
 // Eight focus areas — shown as tags in the "What We Offer" section
 export const focusTags = [
   'Visa Interview Coaching',
-  'Mock Interview Sessions',
+  'Embassy Mock Interviews',
   'Business Case Presentation',
-  'Documentation Readiness',
-  'Officer Q&A Preparation',
-  'Confidence & Communication',
-  'Country-Specific Briefings',
-  'Family Interview Prep',
+  'Document Review',
 ]
 
 // "Why Choose Us" cards
 export const features = [
-  { Icon: MessageSquare, title: 'Real Interview Simulation', desc: 'Mock interviews modeled on actual consular, embassy, and immigration interviews — so the real thing feels familiar.' },
-  { Icon: Users, title: 'Mentors Who Know the Process', desc: 'Coached by migration experts who understand exactly what officers ask and what they look for in a business applicant.' },
-  { Icon: Briefcase, title: 'Your Business, Clearly Presented', desc: 'Learn to explain your business, investment, and intent with clarity and confidence — no hesitation, no red flags.' },
-  { Icon: Globe, title: 'Country-Specific Preparation', desc: 'Tailored coaching for the USA, Australia, New Zealand, and the EU — each pathway has its own questions and expectations.' },
+  { Icon: MessageSquare, title: 'Real Interview Simulation', desc: 'Mock interviews based on actual consular, embassy, and immigration interviews, so that you know exactly what to expect at your visa interview.' },
+  { Icon: Users, title: 'Mentors Who Understand the Process', desc: 'Work with experienced business migration specialists who know how immigration officers interview business owners, investors, and executive officers.' },
+  { Icon: Briefcase, title: 'Your Business Explained Perfectly', desc: 'Learn how to explain your company, business model, investment plans and expansion strategy confidently, clearly and consistently.' },
+  { Icon: Globe, title: 'Country-Specific Preparation', desc: 'Customized coaching for the USA, Australia, New Zealand, and the European Union business migration interviews according to each country’s requirements.' },
 ]
 
 // Testimonials. NOTE: names & roles are placeholders — replace with real clients.
@@ -40,10 +36,11 @@ export const testimonials = [
 
 // "About Phoenix Academy" supporting bullet points
 export const aboutPoints = [
-  'Built for established business owners, directors & investors',
-  'Mock interviews modeled on real consular & embassy interviews',
-  'Country-specific coaching for the USA, Australia, NZ & EU',
-  'Preparation for you — and your family’s interview too',
+  'Developed specially for business owners, directors & investors',
+  'Mock interviews based on real embassy and consular interviews',
+  'Country-specific preparation for the USA L-1 visa, Australia, UK, New Zealand, Singapore and more',
+  'Improve English communication without changing your personality',
+  'Complete business presentation & documentation coaching',
 ]
 
 // The four core training programs (rendered in the Programs section)
@@ -51,9 +48,9 @@ export const programs = [
   {
     Icon: Mic,
     titleA: 'Visa Interview', titleB: 'Mastery',
-    tagline: 'The Core Mock-Interview Program',
-    desc: 'Rehearse the interview until it feels routine — answering officer questions with confidence, composure, and consistency under pressure.',
-    keyAreas: ['Realistic Mock Interviews', 'Officer Q&A Drills', 'Answering With Confidence', 'Handling Tough Questions', 'Delivery & Body Language'],
+    tagline: 'The Essential Mock Interview Program',
+    desc: 'Practice every aspect of your embassy interview through a series of realistic simulations, expert feedback, and confidence-building exercises until your answers are natural and convincing.',
+    keyAreas: ['Realistic Mock Interviews', 'Officer Q&A Drills', 'Answering With Confidence', 'Handling Tough Questions', 'Delivery & Body Language', 'Business Case Presentation'],
     cta: 'Begin Preparation',
     artClass: 'visa-art--usa', region: 'Mock interviews · Q&A · Confidence',
     stat: '98%', statLabel: 'Interview Success Rate',
@@ -62,8 +59,8 @@ export const programs = [
     Icon: Presentation,
     titleA: 'Business Case', titleB: 'Presentation',
     tagline: 'Present Your Business Convincingly',
-    desc: 'Tell the story of your business, investment, and genuine intent so an officer understands it in minutes — and believes it.',
-    keyAreas: ['Telling Your Business Story', 'Investment & Financials Narrative', 'Proving Genuine Intent', 'Source-of-Funds Clarity', 'Avoiding Red Flags'],
+    desc: 'Learn how to present your company, investment strategy, business expansion plans and genuine intention such that immigration officer clearly understands your application.',
+    keyAreas: ['Telling Your Business Story', 'Investment & Financials Narrative', 'Proving Genuine Intent', 'Source-of-Funds Clarity', 'Avoiding Red Flags', 'Documentation Readiness'],
     cta: 'Begin Preparation',
     artClass: 'visa-art--au', region: 'Story · Investment · Intent',
     stat: '1000+', statLabel: 'Owners Coached',
@@ -72,7 +69,7 @@ export const programs = [
     Icon: FileCheck,
     titleA: 'Documentation', titleB: 'Readiness',
     tagline: 'Know Your File Inside Out',
-    desc: 'Walk through every document in your application so your answers and your paperwork tell one consistent, watertight story.',
+    desc: 'Your interview is only as strong as the documents behind it. At Phoenix Interview Academy, we help you understand every single document in your file so your answers match your paperwork in the embassy interview.',
     keyAreas: ['Full Document Walkthrough', 'Petition & Application Familiarity', 'Consistency Checks', 'Evidence Mapping', 'Common Documentation Pitfalls'],
     cta: 'Learn More',
     artClass: 'visa-art--nz', region: 'Documents · Evidence · Consistency',
@@ -81,9 +78,9 @@ export const programs = [
   {
     Icon: MapPin,
     titleA: 'Country-Specific', titleB: 'Briefing',
-    tagline: 'USA · Australia · New Zealand · EU',
-    desc: 'Targeted preparation for your destination — each country’s officers, process, and expectations are different, and we prepare you for yours.',
-    keyAreas: ['USA L-1 Consular Interview', 'Australia NIV Assessment', 'NZ Investor Interview', 'EU CBI Due Diligence', 'Officer Expectations by Country'],
+    tagline: 'USA · Australia · New Zealand · European Union',
+    desc: 'Every immigration system is unique. Our Visa Interview Coaching is tailored to the style of interview, document requirements, and expectations of immigration officers in every destination country, ensuring you’re prepared for every question.',
+    keyAreas: ['USA L-1 Consular Interview', 'Australia Business Visa Preparation', 'New Zealand Investor Interview', 'European Union Due Diligence', 'Officer Expectations by Country'],
     cta: 'Begin Preparation',
     artClass: 'visa-art--eu', region: 'USA · Australia · NZ · EU',
     stat: '4', statLabel: 'Destination Markets',
@@ -92,26 +89,26 @@ export const programs = [
 
 // "How It Works" — the interview-preparation journey (5 steps)
 export const processSteps = [
-  { num: '1', title: 'Assessment', desc: 'We review your profile, business, and visa pathway — and pinpoint where the interview is most likely to challenge you.' },
-  { num: '2', title: 'Personalized Prep Plan', desc: 'You receive a tailored roadmap focused on your destination, your business case, and your weak spots.' },
-  { num: '3', title: 'Coaching & Drills', desc: 'Expert sessions sharpen your answers, your business story, and your command of every document.' },
-  { num: '4', title: 'Mock Interviews', desc: 'Realistic simulations with honest feedback, repeated until you are calm and interview-ready.' },
-  { num: '5', title: 'Interview Day', desc: 'You walk into the real interview prepared, confident, and ready to present your case.' },
+  { num: '1', title: 'Eligibility assessment', desc: 'We will review your company profile, visa route, eligibility and interview requirements to analyse key areas that need further preparation.' },
+  { num: '2', title: 'Personalized Coaching Program', desc: 'Get a personalized plan tailored to your destination, business experience, language skills & application profile.' },
+  { num: '3', title: 'Coaching and Interview Simulation Practice', desc: 'Practice answering interview questions, building your business case, improving your communication skills and learning how to answer under pressure.' },
+  { num: '4', title: 'Embassy Interview Simulation', desc: 'Experience real-life mock embassy interview simulations and receive professional coaching feedback until your answers become structured and convincing.' },
+  { num: '5', title: 'Interview Day Ready', desc: 'Go into your actual interview confident and prepared, having all your paperwork, business story, and answers well-rehearsed.' },
 ]
 
 // "Trusted by business owners" — success metrics
 export const metrics = [
   { num: '1000+', label: 'Business Owners Coached' },
-  { num: '98%', label: 'Interview Success Rate' },
+  { num: '98%', label: 'Interview Success Readiness' },
   { num: '2500+', label: 'Mock Interviews Conducted' },
-  { num: '4', label: 'Visa Destinations Covered' },
+  { num: '4', label: 'Business Migration Destinations Covered' },
 ]
 
 // Parent practice (Phoenix Business Advisory) — credibility stats
 export const parentStats = [
-  { num: '$170M+', label: 'Investment capital mobilized' },
-  { num: '700+', label: 'Businesses empowered globally' },
-  { num: '300+', label: 'Local jobs created' },
+  { num: '$170M+', label: 'Investment capital facilitated' },
+  { num: '700+', label: 'Business owners & investors supported' },
+  { num: '300+', label: 'Businesses expanded globally' },
 ]
 
 // Media outlets that have featured Phoenix

@@ -8,8 +8,9 @@ export default function BackedBy() {
       <div className="backed__inner">
         <div className="backed__text">
           <div className="eyebrow--gold-bold">Backed by Phoenix Business Advisory</div>
-          <h2 className="backed__title">The strength of a global migration practice <em>behind every applicant.</em></h2>
-          <p className="backed__desc">Phoenix Academy is the interview-preparation division of Phoenix Business Advisory — “The Most Trusted Name in Business Migration,” serving the USA, Australia, New Zealand, and the European Union on a Visa-First, Investment-After model. The same senior advisors who structure your migration prepare you to command the interview.</p>
+          <h2 className="backed__title">The confidence of a global business migration leader <em>behind every interview.</em></h2>
+          <p className="backed__desc">Phoenix Interview Academy is the dedicated interview-preparation division of Phoenix Business Advisory, trusted by business owners expanding to the USA, Australia, New Zealand, and the European Union.</p>
+          <p className="backed__desc">From immigration documentation preparation to visa interview coaching, the same business migration experts guide you through all critical stages. Our visa interview coaching program takes into account the requirements of a real embassy and helps business owners to speak in front of immigration officers with confidence and credibility.</p>
           <div className="backed__creds">
             <ShieldCheck size={18} color="#c4882f" strokeWidth={2} />
             <span>Registered Migration Agent <strong>MARN 1383279</strong> · MIA Member 6408 · NZ Licence 202506918</span>

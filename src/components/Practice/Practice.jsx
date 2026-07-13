@@ -11,9 +11,11 @@ export default function Practice() {
         </div>
         <div>
           <div className="eyebrow--gold">About Us</div>
-          <h2 className="practice__title">More than paperwork. <em>Real interview readiness.</em></h2>
-          <p className="practice__text">Phoenix Academy is the interview-preparation and migration-readiness arm of Phoenix Business Advisory. We work exclusively with established business owners, directors, and investors — preparing them to face their migration visa interview with clarity and confidence.</p>
-          <p className="practice__text practice__text--last">A strong application gets you to the interview. We make sure you’re ready for it — rehearsing your answers, sharpening your business case, and knowing your documents inside out, so nothing catches you off guard on the day.</p>
+          <h2 className="practice__title">Beyond documents.<br /><em>Built for interview success.</em></h2>
+          <p className="practice__text">Phoenix Interview Academy is the dedicated interview-preparation division of Phoenix Business Advisory, created exclusively for entrepreneurs applying for business migration visas.</p>
+          <p className="practice__text">Many successful business owners miss great opportunities not because of their ineligibility, but because of their inability to prove themselves in embassy interviews.</p>
+          <p className="practice__text">Our coaching turns business owners into confident applicants through well-structured preparation, personalized interview strategy, and realistic practice sessions.</p>
+          <p className="practice__text practice__text--last">All our coaching programs are tailored specifically to your application, business profile, and interview process in your destination country.</p>
           <ul className="practice__points">
             {aboutPoints.map((pt) => (
               <li key={pt} className="practice__point"><span className="dot-gold" />{pt}</li>

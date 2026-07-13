@@ -12,7 +12,7 @@ export default function VisaPrograms() {
       <div className="visa__inner">
         <div className="eyebrow--gold eyebrow--center">Our Programs</div>
         <h2 className="visa__title">Interview preparation, <em>built for business migration.</em></h2>
-        <p className="visa__lead">Targeted, expert-led coaching that gets established business owners ready for every part of the visa interview — across all four destination markets.</p>
+        <p className="visa__lead">Expert-led and targeted coaching exclusively for entrepreneurs, investors, directors, and senior management, interviewing for business visa interviews.</p>
 
         {programs.map((p, i) => {
           const artSide = i % 2 === 0 ? 'right' : 'left'

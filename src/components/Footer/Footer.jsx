@@ -33,11 +33,11 @@ export default function Footer() {
             <div className="footer__brand">
               <div className="footer__logo"><GraduationCap size={22} color="#c4882f" strokeWidth={2} /></div>
               <div>
-                <span className="footer__name">Phoenix<span className="dot">.</span> Academy</span>
-                <span className="footer__parent">A division of Phoenix Business Advisory</span>
+                <span className="footer__name">Phoenix Interview Academy</span>
+                <span className="footer__parent">A Division of Phoenix Business Advisory</span>
               </div>
             </div>
-            <p className="footer__tagline">Visa interview preparation &amp; migration readiness for established business owners — the training arm of Phoenix Business Advisory.</p>
+            <p className="footer__tagline">Phoenix Interview Academy is the dedicated Visa Interview Coaching division of Phoenix Business Advisory, created exclusively for business owners, directors, and investors preparing for high-value migration interviews.</p>
             <div className="footer__socials">
               {socials.map(({ Icon, label }) => (
                 <a key={label} href="#" aria-label={label} className="footer__social"><Icon size={17} /></a>

@@ -33,6 +33,13 @@
   letter-spacing: -.02em;
   margin-bottom: 22px;
 }
+.practice__title em {
+  display: block;
+  font-style: italic;
+  color: #b07d2a;
+  font-size: 24px;
+  margin-top: 8px;
+}
 .practice__text {
   font-size: 16px;
   color: #5a5240;
